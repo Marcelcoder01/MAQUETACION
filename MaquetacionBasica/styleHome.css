@@ -1,0 +1,46 @@
+.Header{
+    display: flex;
+    border: 3px solid black;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+
+}
+
+.letras{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    
+    margin-left: 70px;
+}
+
+/* .titulo1{
+    margin-top:30px;
+} */
+
+
+
+.foto1{
+    display: flex;
+    flex-direction: column;
+   padding: 15px;
+    margin-top: 30px;
+}
+img{
+    width: 350px;
+    height: 500px;
+}

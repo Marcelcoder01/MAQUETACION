@@ -1,0 +1,40 @@
+.Header{
+    display: flex;
+    border: 3px solid black;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+
+}
+
+.letras{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white
+    
+}
+
+.titulo1{
+    display:flex;
+    justify-content: center;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;     
+    justify-content: center;
+}
+
+.foton{
+    padding: 40px;
+    width:50%;
+}
+
+.articulo1{
+    padding-right: 20px;
+    margin-left: 0;
+}
