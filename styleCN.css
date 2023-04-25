@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display:flex;
+    color:white;
+    background-color: black;
+    height:80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div{
+    width: 50%;
+    display:flex;
+    justify-content: flex-start;
+    padding-left: 100px;
+    
+}
+img{
+    height: auto;
+    width: auto;
+    max-width: 190px;
+    max-height: 190px;
+}
+nav ul{
+    display:flex;
+    width: 50%;
+    list-style: none;
+    justify-content: space-evenly;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+.cuerpo{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+body{
+    background-color:rgb(87, 87, 246);
+}
+
+.letras1{
+    color:azure
+}
+
+.letras2{
+    color: chartreuse;
+}
+
+.cajaletras{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-start;
+    margin-top:160px;
+        
+}
+
+.aside1 img{ 
+    height: auto;
+    width: auto;
+    max-width: 950px;
+    max-height: 380px;
+    
+
+}
+
+
+.aside1{
+    margin-top:50px;
+    margin-bottom:50px;
+    width:30%;
+    height:380px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recorte1{
+    width:100%;
+    height:200px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.recorte1 img{
+    height: auto;
+    width: auto;
+    max-width: 1300px;
+    max-height: 600px;
+}
+
+.recorte2{
+    width:100%;
+    height:200px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recorte2 img{
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 600px;
+}
+
+.recorte3{
+    width:100%;
+    height:530px;   
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recorte3 img{
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 600px;
+}
+
+.recortenuevo{
+    width:100%;
+    height:700px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.recortenuevo img{
+    height: auto;
+    width: auto;
+    max-width: 1300px;
+    max-height: 700px;
+}
+
+.footer{
+    display:flex;
+    color:white;
+    background-color: black;
+    height:100px;
+    width:100%;
+    justify-content: center;
+}
+
+footer div{
+    width: 250px;
+    display:flex;
+    justify-content: space-between;
+
+
+}
+
+footer div img{
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 1500px;
+}
+
