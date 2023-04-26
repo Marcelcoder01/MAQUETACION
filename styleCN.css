@@ -132,13 +132,21 @@ body{
     display:flex;
     align-items: center;
     justify-content: center;
+    border: 3px solid red;
+    background-color: black;
 }
 
-.recorte3 img{
-    height: auto;
-    width: auto;
-    max-width: 100%;
-    max-height: 600px;
+.recorte3 div{
+    color:black;
+    border:3px solid green;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 120px;
+    height:100%;
+    background-color: whitesmoke;
+    text-align: center;
+    padding-top: 50px;
 }
 
 .recortenuevo{
@@ -155,9 +163,10 @@ body{
     color: azure;
     
 }
-.recortenuevo div h2{
+.recortenuevo div h3{
     margin-left: 300px;
     margin-right: 300px;
+    margin-bottom: 15px;
 }
 
 .footer{
