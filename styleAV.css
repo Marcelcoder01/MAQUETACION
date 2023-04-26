@@ -159,3 +159,18 @@ img{
 .letras2{
     color: black
 }
+
+.aside{
+    display:none;
+}
+
+.aside2{
+    width:300px;
+}
+
+.table{
+    width: 300px;
+    background-color: white;
+    padding:10px;
+    border-radius: 5px;
+}

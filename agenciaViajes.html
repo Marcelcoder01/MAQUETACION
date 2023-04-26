@@ -78,20 +78,27 @@
               BUSCA TU VIAJE
           </h1>
             <div>
-          <input type="text" placeholder="Nombre y apellidos">
-          <input type="text"placeholder="Origen">
-          <input type="text"placeholder="Destino">
-          <input type="number"placeholder="Nº de personas">
-          <input type="text"placeholder="Fecha">
+          <input type="text" id="nombre" placeholder="Nombre y apellidos">
+          <input type="text" id="origen" placeholder="Origen">
+          <input type="text" id="destino" placeholder="Destino">
+          <input type="number" id="numero" placeholder="Nº de personas">
+          <input type="text" id="fecha" placeholder="Fecha">
             </div>
             <div class="botones">
-                <button class="button2"><h3>Buscar vuelos</h3></button>
-                <button class="button2"><h3>Solicita información</h3></button>
+                <button class="button2" onclick="mostrarSolicitudes()" type="reset"><h3>Buscar vuelos</h3></button>
+                <button class="button2" onclick="addSolicitudes()" type="reset"><h3>Solicita información</h3></button>
               </div>
         </form>
+
+        <aside class="aside aside2">
+            <table class="table" id="solicitudes">
+
+            </table>
+
+        </aside>
         
     </div>
- 
+ <script src="AgenciaViajes.js"></script>
       
 </body>
 </html>
