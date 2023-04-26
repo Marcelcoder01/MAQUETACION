@@ -16,18 +16,36 @@ function addSolicitudes(){
         fecha_solicitud: fecha.value,
     };
     solicitudes.push(solicitud);
-    console.log(solicitud)
+    console.log(solicitudes)
 }
 
 function mostrarSolicitudes(){
-    let tabla = document.getElementById("destino");
+    let tabla = document.getElementById("tabla");
     let aside = document.querySelector("*.aside2");
 
     if(aside.classList.contains("aside")){
         aside.classList.remove("aside")
     };
-    if(tabla.value == "Canarias"){
-        console.log(tabla.value)
-    }
 
+    tabla.innerHTML = `<tr class="table__head">
+                       <th>Nombre</th>
+                       <th>Origen</th>
+                       <th>Destino</th>
+                       <th>Nº de Personas</th>
+                       <th>Fecha</th>
+                       </tr>`;
+    
+    for (let i = 0; i < solicitudes.length; i++) {
+        if(solicitudes[i].destino_solicitud.toUpperCase() == "CANARIAS")
+        { 
+            tabla.innerHTML += `<tr class="table__head">
+            <th>${solicitudes[i].nombre_solicitud}</th>
+            <th>${solicitudes[i].origen_solicitud}</th>
+            <th>${solicitudes[i].destino_solicitud}</th>
+            <th>${solicitudes[i].numero_solicitud}</th>
+            <th>${solicitudes[i].fecha_solicitud}</th>
+            </tr>`
+        }
+    }
 }
+
