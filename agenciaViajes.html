@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia</title>
+    <link rel="stylesheet" href="styleAV.css">
+</head>
+<body>
+    <nav>
+        <div> 
+          <h1>AGENCIA GRANVUELO</h1>
+        </div> 
+    </nav> 
+    <main class="cuerpo">
+        <div class="cajaletras">
+           <h2 class="letras1">
+            ¿QUIÉNES SOMOS?
+           </h2>
+           <h2 class="letras1">
+            Mucho más que una agencia de viajes
+           </h2>
+           <h5 class="letras2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima officia sapiente iusto doloribus saepe, sequi incidunt similique ullam in deleniti, hic quod ratione! Quidem distinctio provident quia pariatur libero quaerat, quas voluptatum a recusandae enim ullam voluptate mollitia? Dicta molestias veritatis ex voluptate accusamus, corporis autem consequatur dolorem excepturi quia!
+           </h5>
+    </main>  
+    <div class="contenedor">
+       <div class="card">
+
+         <div class="left-column background-left-column">
+           <h6>NUEVA OFERTA!</h6>
+           <h2>MARRAKECH</h2>
+           <img src="consejos-viajar-marrakech.jpg" alt="">
+
+         </div>
+
+         <div class="right-column">
+            <div>
+                <h4>Mejor precio</h4>
+                <h6>300 euros ida y vuelta</h6>
+            </div>
+            <h2>La joya de Marruecos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia atque perferendis quo praesentium, voluptates at alias repellat fuga quibusdam eius est ad accusantium nihil reprehenderit a porro hic aspernatur culpa.</p>
+            <button class="button"><h3>Reserva!</h3></button>
+
+          </div>
+
+        </div>
+        
+
+        <div class="card">
+
+            <div class="left-column background-left-column">
+              <h6>NUEVA OFERTA!</h6>
+              <h2>EL CAIRO</h2>
+              <img src="descarga.jpg" alt="">
+   
+            </div>
+   
+            <div class="right-column">
+               <div>
+                   <h4>Mejor precio</h4>
+                   <h6>500 euros ida y vuelta</h6>
+               </div>
+               <h2>Las mágicas pirámides</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia atque perferendis quo praesentium, voluptates at alias repellat fuga quibusdam eius est ad accusantium nihil reprehenderit a porro hic aspernatur culpa.</p>
+               <button class="button"><h3>Reserva!</h3></button>
+   
+             </div>
+   
+           </div>
+    </div> 
+
+    <div class="formulario">
+        <form>
+          <h1>
+              BUSCA TU VIAJE
+          </h1>
+            <div>
+          <input type="text" id="nombre" placeholder="Nombre y apellidos">
+          <input type="text" id="origen" placeholder="Origen">
+          <input type="text" id="destino" placeholder="Destino">
+          <input type="number" id="numero" placeholder="Nº de personas">
+          <input type="text" id="fecha" placeholder="Fecha">
+            </div>
+            <div class="botones">
+                <button class="button2" onclick="mostrarSolicitudes()" type="reset"><h3>Buscar vuelos</h3></button>
+                <button class="button2" onclick="addSolicitudes()" type="reset"><h3>Solicita información</h3></button>
+              </div>
+        </form>
+
+        <aside class="aside aside2">
+            <table class="table" id="tabla">
+             
+            </table>
+
+        </aside>
+        
+    </div>
+ <script src="AgenciaViajes.js"></script>
+      
+</body>
+</html>
