@@ -101,7 +101,6 @@ body{
 
 .recorte3 div{
     color:black;
-    border:3px solid green;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
