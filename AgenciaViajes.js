@@ -1,4 +1,4 @@
-let solicitudes = []
+    let solicitudes = []
 
 function addSolicitudes(){
     
@@ -36,7 +36,9 @@ function mostrarSolicitudes(){
                        </tr>`;
     
     for (let i = 0; i < solicitudes.length; i++) {
-        if(solicitudes[i].destino_solicitud.toUpperCase() == "CANARIAS")
+        if(solicitudes[i].destino_solicitud.toUpperCase() == "CANARIAS" || 
+        solicitudes[i].destino_solicitud.toUpperCase() == "MALLORCA" ||
+        solicitudes[i].destino_solicitud.toUpperCase() == "GALICIA")
         { 
             tabla.innerHTML += `<tr class="table__head">
             <th>${solicitudes[i].nombre_solicitud}</th>

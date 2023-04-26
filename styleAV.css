@@ -169,8 +169,12 @@ img{
 }
 
 .table{
-    width: 300px;
+    width: 500px;
     background-color: white;
     padding:10px;
     border-radius: 5px;
+}
+
+.table th{
+    border:1px solid black;
 }
