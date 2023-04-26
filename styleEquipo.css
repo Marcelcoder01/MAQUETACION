@@ -14,6 +14,10 @@ nav{
     align-items: center;
 }
 
+body{
+    background-color:black;
+}
+
 nav div{
     width: 50%;
     display:flex;
@@ -40,15 +44,42 @@ nav ul li a{
     color:white;
 }
 
-.imagen1{
+.imagenes1{
     display:flex;
-    justify-content: center;
-    height:800px;
-    border:3px solid red;
-
+    justify-content: space-evenly;
+    height:500px;
+    background-color: white   
 }
 
-.imagen1 img{
+.texto1{
+    display:flex;
+    justify-content: space-evenly;
+    height:200px;
+    width: 90%;
+    margin-left: 60px;
+    padding-top: 20px;
+
+}
+.texto1 div{
+    padding-left:120px;
+    padding-right: 100px;
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.texto1 div p{
+    color: azure;
+    margin-left: 5px;
+}
+
+.imagenes1 div{
+   display: flex;
+   height:100%;
+    
+}
+
+.imagenes1 img{
     margin-top: 30px;
     height: auto;
     width: auto;
