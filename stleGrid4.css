@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}   
+
+.areasGrid{
+    display: grid;
+    height: 50vh;
+    width: 150vh;
+    grid-template-areas: 
+    'header header imagen'
+    'aside contenido contenido'
+    'aside texto texto'
+    'footer footer footer';
+}
+
+.header{
+    grid-area: header;
+    background-color:rgb(201, 54, 28);
+    height:50px;
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.imagen{
+    grid-area: imagen;
+    background-color:rgb(107, 22, 22);
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.Aside{
+    grid-area: aside;
+    background-color: orangered;
+    padding: 7px;
+}
+
+.Aside1{
+    color: orangered;
+    background-color: white;
+    height:120px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.Aside2{
+    color: orangered;
+    background-color: white;
+    height:120px;
+    margin-top: 110px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-top: 10px;
+}
+.Contenido{
+    grid-area: contenido;
+    background-color: rgb(253, 45, 18);
+    padding: 9px;
+}
+
+.content{
+    border: 1px solid white;
+    height:170px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.Texto{
+    grid-area: texto;
+    background-color: rgb(253, 45, 18);
+    padding: 9px;
+}
+
+.text{
+    border: 1px solid white; 
+    height:170px;
+    margin-top: -10px;  
+    color: white;
+    text-align: center; 
+    padding-top: 10px;         
+}
+.footer{
+    grid-area: footer;
+    background-color:rgb(107, 22, 22);
+    height:50px;
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+}
